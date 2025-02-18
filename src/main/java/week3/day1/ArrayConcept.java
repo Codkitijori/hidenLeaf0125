@@ -40,7 +40,7 @@ public class ArrayConcept {
 			if (a[i]==b[i]) {
 				System.out.println("a[i] value= "+a[i]);
 				System.out.println("b[i] value= "+b[i]);
-				System.out.println("gets in...");
+				System.out.println("gets into if ...");
 			}
 			for(int j =0; j < b.length; j++) {
 				//System.out.println("j iteration:" + j);
