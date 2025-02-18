@@ -1,5 +1,6 @@
 package week3.day1;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 
 public class ArrayConcept {
@@ -46,6 +47,10 @@ public class ArrayConcept {
 				//System.out.println("j iteration:" + j);
 			}
 		}
+	}
+	
+	public void listToList() {
+		ArrayList<String> newStudents = new ArrayList<String>();
 	}
 
 	public static void main(String[] args) {
