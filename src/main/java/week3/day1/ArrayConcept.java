@@ -2,6 +2,7 @@ package week3.day1;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 public class ArrayConcept {
 
@@ -50,10 +51,14 @@ public class ArrayConcept {
 	}
 	
 	public void listToList() {
-		ArrayList<String> newStudents = new ArrayList<String>();
+		List<String> newStudents = new ArrayList<String>();
+		newStudents.add("ankit");
+		System.out.println(newStudents);
 	}
 
 	public static void main(String[] args) {
+		
+		ArrayConcept ar = new ArrayConcept();
 
 //		int[] num = { 2, 5, 7, 7, 5, 9, 2, 3, 22, 22 };
 //		findDuplicates(num);
@@ -62,6 +67,7 @@ public class ArrayConcept {
 //		findMissingNum(numbers);
 		
 		findIntersection();
+		ar.listToList();
 
 		
 	}
